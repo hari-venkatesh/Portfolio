@@ -64,7 +64,7 @@ export const Banner = () => {
                 <h1>{`Hi!! I'm Hari Venkatesh an `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>A perfect team player with a zest for the enrichment of the
 organization and a well-organized, quick learner with the
-ability to plan and prioritize work.</p>
+ability to plan and prioritize work. <br/> I possess Excellent Communication skill in multiple language. </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
