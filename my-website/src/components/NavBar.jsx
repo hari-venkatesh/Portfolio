@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/logo.svg';
+import hlogo from '../assets/img/hlogo.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -38,7 +38,7 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
+            <img className="logo" src={hlogo} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -51,11 +51,11 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/hari-venkatesh-p-6b1bbb1a0/"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.linkedin.com/in/hari-venkatesh-p-6b1bbb1a0/" target="_blank"><img src={navIcon1} alt="" /></a>
                 <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="https://github.com/hari-venkatesh"><img src={navIcon3} alt="" /></a>
+                <a href="https://github.com/hari-venkatesh" target="_blank"><img src={navIcon3} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
+              <HashLink to='#footer'>
                 <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink>
             </span>

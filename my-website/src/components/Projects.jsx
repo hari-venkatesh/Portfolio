@@ -5,10 +5,14 @@ import message from "../assets/img/message.png";
 import blog from "../assets/img/blog.png";
 import notes from "../assets/img/notes.png";
 import auto from "../assets/img/auto.png";
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 import user from "../assets/img/user.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import colorSharp from "../assets/img/color-sharp.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+
 
 export const Projects = () => {
 
@@ -58,7 +62,8 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
+      
       <Container>
         <Row>
           <Col size={4}>
@@ -66,9 +71,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>My main course of learning was madeup by whole bunch of Projects<br/>
-                I used to Practice a lot by doing projects on Technologies which ever I learnt 
-                which helped to shine in what ever I Do<br/>
+                <p>My main course of learning was made up of a whole bunch of projects<br/> I used to practice a lot by doing projects on technologies whichever I learned helped to shine in whatever I DO.<br/>
                 </p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -133,9 +136,11 @@ export const Projects = () => {
               </div>}
             </TrackVisibility>
           </Col>
+          
         </Row>
+        
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt="Image" />
     </section>
   )
 }

@@ -7,6 +7,7 @@ import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
+
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -50,20 +51,40 @@ export const Skills = () => {
                                 <h5>NodeJS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>SQL</h5>
-                            </div>
-                            <div className="item">
                                 <img src={meter3} alt="Image" />
                                 <h5>ExpressJS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>SQL</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
                                 <h5>MongoDB</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>NextJS</h5>
+                                <img src={meter1} alt="Image" />
+                                <h5>Java</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>SpringBoot</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>HTML/CSS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>JavaScript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>BootStrap</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Git</h5>
                             </div>
                         </Carousel>
                     </div>
