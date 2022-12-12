@@ -12,7 +12,7 @@ export const Footer = () => {
         <Row className="align-items-center">
           <Col size={12} sm={6} className="own-footer">
             <p className="text-laddu-gradient" > <a href="mailto:connectwithhari0513@gmail.com"><i  class="fas fa-envelope"></i> connectwithhari0513@gmail.com</a></p>
-            <p className="text-laddu-gradient whatsapp"><a href="https://api.whatsapp.com/send?phone=919944616138" ><i class="fab fa-whatsapp"></i> 9944616138</a></p>
+            <p className="text-laddu-gradient whatsapp"><a href="https://api.whatsapp.com/send?phone=919944616138" target="_blank" ><i class="fab fa-whatsapp"></i> 9944616138</a></p>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">

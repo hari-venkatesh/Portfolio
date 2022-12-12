@@ -9,7 +9,6 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import user from "../assets/img/user.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import colorSharp from "../assets/img/color-sharp.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
