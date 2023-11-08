@@ -13,7 +13,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Full Stack Developer", "Web Developer"];
+  const toRotate = ["Full Stack Developer", "Web Developer"];
   const period = 1000;
 
   useEffect(() => {
@@ -52,31 +52,35 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-      <div className="profile-picture">
-                    <div className="profile-picture-background">
-                    </div>
-                </div>
+        <div className="profile-picture">
+          <div className="profile-picture-background">
+          </div>
+        </div>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome, wishing you a Great Day!!!</span>
-                <h1>{`Hi! I'm Hari Venkatesh a `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>A perfect team player with a zest for the enrichment of the
-organization and a well-organized, quick learner with the
-ability to plan and prioritize work. <br/> I possess Excellent Communication skill in multiple language. </p>
-                
-                <button onClick={() => alert("Contact Details given at the Bottom of the Page")}>Let’s Connect <ArrowRightCircle size={25} /></button>
-                
-              </div>}
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                  <span className="tagline">Welcome, wishing you a Great Day!!!</span>
+                  <h1>{`Hi! I'm Hari Venkatesh a `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>An Experienced team player with a zest for the enrichment of the
+                    organization and a well-organized, quick learner with the
+                    ability to plan and prioritize work. <br />
+                    I possess Excellent Communication skill in multiple language. <br />
+                    High knowledge on J2EE development toolset to design, test,
+                    deploy and maintain software. 
+                  </p>
+
+                  <button onClick={() => alert("Contact Details given at the Bottom of the Page")}>Let’s Connect <ArrowRightCircle size={25} /></button>
+
+                </div>}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img src={headerImg} alt="Header Img" />
                 </div>}
             </TrackVisibility>
           </Col>

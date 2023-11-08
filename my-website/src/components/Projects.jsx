@@ -11,22 +11,23 @@ import user from "../assets/img/user.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import aviation from "../assets/img/aviation.png"
 
 
 export const Projects = () => {
 
   const projects = [
     {
+      title: "Aviation Data Analysis Dashboard",
+      description: "A responsive data-driven platform that offers real-time insights and visualizations for informed decision-making in the aviation industry",
+      imgUrl: aviation,
+      link: "https://aviation-data-analysis-dashboard.vercel.app",
+    },
+    {
       title: "Blog Site",
       description: "An Custom build Blog Site which can host a whole lot of functionalities",
       imgUrl: blog,
       link: "https://github.com/hari-venkatesh/blog-site",
-    },
-    {
-      title: "Message App",
-      description: "An Responsive Messaging Application which can handle multiple users",
-      imgUrl: message,
-      link: "https://github.com/hari-venkatesh/NodeJS-Learning",
     },
   ];
 
@@ -47,10 +48,10 @@ export const Projects = () => {
 
   const projects2 = [
     {
-      title: "Authentication System",
-      description: "A full-fledged web app that provides secured authentication and Keep track of loged in users",
-      imgUrl: auto,
-      link: "https://github.com/hari-venkatesh/Authentication-System",
+      title: "Message App",
+      description: "An Responsive Messaging Application which can handle multiple users",
+      imgUrl: message,
+      link: "https://github.com/hari-venkatesh/NodeJS-Learning",
     },
     {
       title: "User Management System",

@@ -60,11 +60,11 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>MongoDB</h5>
+                                <h5>Java</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Java</h5>
+                                <h5>MongoDB</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
@@ -72,19 +72,23 @@ export const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>HTML/CSS</h5>
+                                <h5>HTML/CSS/JavaScript</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>JavaScript</h5>
+                                <h5>MaterialUI</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>BootStrap</h5>
+                                <h5>NextJS</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Git</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>Cypress</h5>
                             </div>
                         </Carousel>
                     </div>
